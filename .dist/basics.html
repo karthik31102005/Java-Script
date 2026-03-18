@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS BASICS</title>
+
+</head>
+
+<body>
+    <script>
+        document.write("welcome to js !!!", "<br>");
+        console.log("Debugging soon");
+        console.table([10, 20, 30, 40, 50]);
+        document.write(10 + 10, "<br>");
+        document.write(10 + +"10", "<br>");
+        document.write(10 - "10", "<br>");
+        document.write(10 * "10", "<br>");
+        document.write(10 / "10", "<br>");
+        //true= - 1
+        //false - 0
+        document.write(10 + true, "<br>");
+        document.write(10 + "true", "<br>")
+        document.write(10 + true + true + false, "<br>");
+        document.write(10 / false, "<br>");
+        document.write(10 / true, "<br>");
+        document.write(false / true, "<br>");
+        document.write(true / false, "<br>");
+
+        // = (assignement)
+        // == (comparsion)
+        // === (strict comparsion)
+        document.write(10 == "10", "<br>");
+        document.write(10 === "10", "<br>");
+        document.write(1 == "one", "<br>");
+        document.write(1 === "one", "<br>");
+        /*
+        what are the difference between == and ===?
+                      ==                          ===
+        *********************************************************
+        1) compares left operend value         1)compares left operend value with
+        with right operend value              datatype to right operend value 
+                                              with datetypes
+        2) ignores datatype                   2)consider datatypes
+        *******************************************************************
+        */
+        document.write(10 > 9 > 8, "<br>");
+        document.write(1 < 2 < 3, "<br>");
+
+        document.write(10 + 5 / 10 - 5, "<br>");
+        //BODMAS
+        // B=brackets
+        // O=of
+        // D = Divison
+        // M= multiplication
+        // A = addition
+        // S = Subtraction
+        document.write((10 + 5) / (10 - 5), "<br>");
+
+        // ternery operator 
+        // condition? block 1 : block2
+        true ? document.write("Frontend", "<br>") : document.write("Backend", "<br>");
+
+        !true ? document.write("Frontend", "<br>") : document.write("Backend", "<br>");
+        false ? document.write("Frontend", "<br>") : document.write("Backend", "<br>");
+        10 > 9 > 8 ? document.write("Frontend", "<br>") : document.write("Backend", "<br>");
+        !(10 > 9 > 8) ? document.write("Frontend", "<br>"): document.write("Backend", "<br>");
+    </script>
+</body>
+
+</html>
